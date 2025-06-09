@@ -1,6 +1,53 @@
-# ict171-cloud-server-34976955
-I chose to create "The Recipe Room" because cooking is a central part of everyday life, and people are always looking for new, exciting, and easy-to-follow recipes. Whether someone is a beginner learning the basics or a passionate home cook exploring different cuisines, having a reliable and well-organized source of recipes can make a big difference.
+# 🍲 The Recipe Room — Cloud Server Deployment (ICT171 Assignment 2)
 
-The Recipe Room is designed to be a welcoming space where anyone can discover a wide variety of dishes—from quick weekday meals to traditional favorites and global cuisines.
+This project showcases the deployment of a dynamic WordPress website on an AWS EC2 instance using Apache2, MySQL, PHP, SSL, and domain integration.
 
-I selected this topic because it combines my interest in food, creativity, and technology, while also offering something useful for a broad audience. It’s a project that has both personal meaning and practical value, with room to grow into a supportive online food community.
+---
+
+## 📌 Student Details
+
+- *Name*: Krushang Sakhareliya  
+- *Student ID*: 34976955  
+- *Unit*: ICT171 Cloud Server Project  
+- *Project Title*: The Recipe Room
+
+---
+
+## 🌐 Live Website
+
+- *Main Site*: [https://thereciperoom.site](https://thereciperoom.site)  
+- *WordPress Admin*: [https://thereciperoom.site/wp-admin](https://thereciperoom.site/wp-admin)
+
+---
+
+## 📹 Video Explainer
+
+Watch the full project walkthrough on Echo360:  
+🔗 [Video Link](https://echo360.net.au/media/f708f9a3-c1fe-47aa-aecd-85e63fdbd9c4/public)
+
+*Note: A secondary site was deployed on thereciperoom.space for video demo purposes.*
+
+---
+
+## ⚙ Technologies Used
+
+| Component        | Technology            |
+|------------------|------------------------|
+| Cloud Platform   | AWS EC2 (Ubuntu 22.04) |
+| Web Server       | Apache2                |
+| Backend          | PHP, MySQL             |
+| CMS              | WordPress              |
+| SSL/TLS          | Certbot (Let's Encrypt)|
+| Domain Provider  | Hostinger              |
+
+---
+
+## 🛠 Setup Script
+
+A full Bash deployment script is provided to automate Apache, PHP, MySQL, WordPress setup, and SSL configuration.
+
+### ➤ How to use
+
+```bash
+chmod +x setup.sh
+./setup.sh 
